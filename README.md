@@ -3,7 +3,7 @@
 `copyclipboard` is a command-line tool that allows you to copy the structure of a folder and the contents of specific file types to your clipboard. This can be especially useful when working with repositories and sharing the structure and code with LLM interfaces like ChatGPT.
 
 ## Installation
-
+You must have `tree` installed on your system. on mac you can install with `brew install tree` and on ubuntu you can install with `sudo apt-get install tree` (if it's not already installed).
 To install `copyclipboard`, simply run:
 
 ```bash
